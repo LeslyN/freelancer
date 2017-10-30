@@ -1,3 +1,268 @@
 /*
  * Estilos de tu proyecto
+	color: #2c3e50;
+
  */
+
+/* Clases universales */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+}
+
+*{
+	color: #fff;
+	font-family: Lato, Montserrat;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Clases reutilizables*/
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.container {
+	width: 100%;
+}
+
+/* Header estático */
+
+header {
+	position: fixed;
+	background-color: #212529; 
+	width: 100%;
+	height: 20vh;
+	padding: 35px 120px;
+}
+
+/* Título izquierdo */
+
+.start {
+	padding: 10px 0px;
+	font-size: 25px;
+	position: absolute;
+}
+
+.text-green {
+	text-decoration: none;
+}
+
+.list {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+/* Texto cambia de color al pasar el puntero*/
+
+.text-green:hover {
+	color: #18bc9c;
+}
+
+/* Section One*/
+.profile {
+	background-color: #18bc9c;
+	height: 100vh;
+	padding-top: 230px;
+	width: 100%;
+}
+
+/* Imagen - section one */
+.img-profile{
+	margin: 0px 50px;
+}
+
+/* Texto de section one */
+.start-image {
+	display: block;
+	margin: 0 auto 20px;
+	width: 100%;
+	font-size: 5em;
+}
+
+/* Línea y estrella*/
+.star-line, .star-black {
+	max-width: 250px;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+}
+
+.star-text{
+	font-size: 2em;
+	padding-bottom: 50px;
+}
+
+/* Section Two*/
+.portfolio {
+	height: 100vh;
+	padding-top: 150px;
+	width: 100%;
+	z-index: 1;
+}
+
+h2 {
+	color: #000;
+	font-size: 3em;
+}
+
+/* Línea y estrella negra*/
+.star-black {
+	color: #000;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+/*Galería de imágenes - section two */
+.image {
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin-bottom: 10px;
+  padding: 20px 20px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.galery-img {
+  margin: 20px 80px 50px;
+  column-width: 300px;
+  column-count: 3;
+}
+
+
+/* Section Three */
+.about {
+	display: block;
+	margin-top: 250px;
+}
+
+.section-about {
+	height: 100vh;
+	background-color: #18bc9c;
+	padding-top: 150px;
+	color: inherit;
+}
+
+/* Color texto - section three */
+.text-white {
+	color: #fff;
+}
+
+/* Texto de la derecha e izquierda - section three */
+.text-col {
+  display: block;
+  padding: 15px 15px;
+  width: 70%;
+  line-height: 30px;
+  margin: 0; 
+}
+
+.paragraph {
+	margin: 20px 120px 20px;
+  column-width: 500px;
+  column-count: 2;
+}
+
+p {
+	font-size: 20px;
+	margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.left{
+  margin-left: auto;
+
+}
+
+.right {
+	margin-right: 50px;
+}
+
+/* Botón Download */
+.btn {
+  display: inline-block;
+	float: left;
+	margin-top: 50px;
+	margin-left: -680px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+.btn-box {
+  font-size: 20px;
+  color: #fff;
+  border: solid 3px #fff;
+  border-radius: .4rem;
+	padding: 1rem 1rem;
+	line-height: 1.5;
+}
+
+i {
+	padding: 10px;
+}
+
+/* Section four */
+.contact-me {
+
+}
+
+/**/
+.text-footer{
+	background-color: #212529;	
+}
