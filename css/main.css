@@ -294,10 +294,6 @@ label {
   color: #b99c96;
 }
 
-
-/* Label */
-
-
 /* Estilos del contenedor de columnas*/
 .footer-full {
 	background-color:  #495057;
@@ -332,6 +328,7 @@ label {
 	vertical-align: middle;
 }
 
+/*Redes sociales */
 .social {
 	display: inline-block;
   border: 2px solid #fff;
@@ -349,6 +346,19 @@ label {
 	background-color: #fff; 
 }
 
+/* Botón*/
+.btn-button {
+  background-color: #18bc9c;
+  border-color: #18bc9c;
+  border-radius: 4px;
+  color: #fff;
+  line-height: 2;
+  padding: 5px 20px;
+  font-size: 20px;
+	font-weight: 700;
+}
+
+/* Footer - párrafo */
 .text-p {
 	font-size: 20px;
   margin-top: 50px;
@@ -359,7 +369,6 @@ label {
 	color: #18bc9c;
 }
 
-/* Footer - párrafo */
 .copyright {
 	padding-top: 300px;
 }
