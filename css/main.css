@@ -70,6 +70,7 @@ a {
 
 .text-right {
 	text-align: right;
+	float: right;
 }
 
 .container {
@@ -134,7 +135,7 @@ header {
 /* Línea y estrella*/
 .star-line, .star-black {
 	max-width: 250px;
-  margin: 5px auto 30px;
+  margin: 15px auto 30px;
   padding: 0;
   text-align: center;
   border: none;
@@ -268,33 +269,33 @@ i {
 }
 
 /* Formulario */
-.form {
-	margin: 10px 280px;
-	padding: 30px 100px;
-	width: 600px;
-	height: 400px;
-	outline: 1px solid black;
-}
-
-label {
-  color: #495057;
-}
-
-/* Label */
-.items-label {
-	position: relative;
-  margin-bottom: 0;
-  padding-bottom: .5em;
-  border-bottom: 1px solid #eee;
+.form-box {
+	display: block;
+	width: 50%;
+	height: 65vh;
+  margin-left: 350px;
 }
 
 .name, .email, .phone, .message {
-	font-size: .85em;
-  z-index: 0;
-  top: 2em;
-  display: block;
-  margin: 0;
+  margin-bottom: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #eee;
 }
+
+.input-text {
+  font-size: 20px;
+	display: block;
+  padding: 30px 30px;
+  border: none;
+  outline: none;
+}
+
+label {
+  color: #b99c96;
+}
+
+
+/* Label */
 
 
 /* Estilos del contenedor de columnas*/
@@ -307,8 +308,8 @@ label {
 
 /* Estilos por cada columna */
 .column1, .column2, .column3 {
-	max-height: 500px;
-	max-width: 220px;
+	max-height: 600px;
+	max-width: 300px;
 	padding: 0px 15px;
   margin-bottom: 50px;
   float: left;
@@ -316,7 +317,7 @@ label {
 }
 
 .column1, .column2, .column3{
-	margin-left: 150px;
+	margin-left: 100px;
 }
 
 
@@ -330,6 +331,7 @@ label {
 .text-h3 {
 	vertical-align: middle;
 }
+
 .social {
 	display: inline-block;
   border: 2px solid #fff;
@@ -337,6 +339,7 @@ label {
   display: inline-block;
   line-height: 45px;
 	margin-right: 5px;
+	margin-top: 30px;
   height: 50px;
   width: 50px;
 }
