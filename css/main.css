@@ -74,6 +74,7 @@ a {
 
 .container {
 	width: 100%;
+	font-weight: 1800px;
 }
 
 /* Header estático */
@@ -89,8 +90,8 @@ header {
 /* Título izquierdo */
 
 .start {
-	padding: 10px 0px;
 	font-size: 25px;
+	padding: 10px 0px;
 	position: absolute;
 }
 
@@ -114,19 +115,18 @@ header {
 .profile {
 	background-color: #18bc9c;
 	height: 100vh;
-	padding-top: 230px;
-	width: 100%;
+	padding-top: 210px;
 }
 
 /* Imagen - section one */
 .img-profile{
-	margin: 0px 50px;
+	margin: 0px 10px;
 }
 
 /* Texto de section one */
 .start-image {
 	display: block;
-	margin: 0 auto 20px;
+	margin: 0 auto 0px;
 	width: 100%;
 	font-size: 5em;
 }
@@ -134,7 +134,7 @@ header {
 /* Línea y estrella*/
 .star-line, .star-black {
 	max-width: 250px;
-  margin: 25px auto 30px;
+  margin: 5px auto 30px;
   padding: 0;
   text-align: center;
   border: none;
@@ -143,7 +143,6 @@ header {
 
 .star-text{
 	font-size: 2em;
-	padding-bottom: 50px;
 }
 
 /* Section Two*/
@@ -259,10 +258,105 @@ i {
 
 /* Section four */
 .contact-me {
-
+	display: block;
+	height: 100vh;
+	padding-top: 100px;
 }
 
-/**/
-.text-footer{
-	background-color: #212529;	
+.contact {
+	color: #000;
+}
+
+/* Formulario */
+.form {
+	margin: 10px 280px;
+	padding: 30px 100px;
+	width: 600px;
+	height: 400px;
+	outline: 1px solid black;
+}
+
+label {
+  color: #495057;
+}
+
+/* Label */
+.items-label {
+	position: relative;
+  margin-bottom: 0;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #eee;
+}
+
+.name, .email, .phone, .message {
+	font-size: .85em;
+  z-index: 0;
+  top: 2em;
+  display: block;
+  margin: 0;
+}
+
+
+/* Estilos del contenedor de columnas*/
+.footer-full {
+	background-color:  #495057;
+	padding-top: 70px;
+	height: 60vh;
+	width: 100%;
+}
+
+/* Estilos por cada columna */
+.column1, .column2, .column3 {
+	max-height: 500px;
+	max-width: 220px;
+	padding: 0px 15px;
+  margin-bottom: 50px;
+  float: left;
+  display: inline-block;
+}
+
+.column1, .column2, .column3{
+	margin-left: 150px;
+}
+
+
+.list {
+  list-style: none;
+	padding-left: 0;
+	vertical-align: middle;
+	float: left;
+}
+
+.text-h3 {
+	vertical-align: middle;
+}
+.social {
+	display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  display: inline-block;
+  line-height: 45px;
+	margin-right: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+.social:hover {
+	color: #18bc9c;
+	background-color: #fff; 
+}
+
+.text-p {
+	font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 1rem;
+}
+
+.text-p a strong {
+	color: #18bc9c;
+}
+
+/* Footer - párrafo */
+.copyright {
+	padding-top: 300px;
 }
